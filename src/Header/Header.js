@@ -9,6 +9,8 @@ export class Header extends Component {
           <img src="/assets/logo_big.png" alt="logo"></img>
           <view style={{height: 20}}/>
           <Title/>
+          <view style={{height: 90}}/>
+          <text className="Header-subtitle">{"Web & Mobile Development"}</text>
         </view>
     )
   }

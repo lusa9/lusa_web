@@ -1,6 +1,13 @@
 .Header-title {
     font-family: "Helvetica Neue";
-    font-weight: 300;
+    font-weight: 200;
     font-size: 80px;
+    color: #898989;
+}
+
+.Header-subtitle {
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 28px;
     color: #898989;
 }
