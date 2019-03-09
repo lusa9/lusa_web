@@ -1,27 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./Header";
+import { RecentWork } from "./RecentWork";
+import { HireMe } from "./Hire";
+import { Footer } from "./Footer";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div style={{display: "flex", flexDirection: "column", minHeight: "100vh", backgroundColor: "whitesmoke"}}>
+        <Header/>
+        <RecentWork/>
+        <HireMe/>
+        <Footer/>
       </div>
-    );
+    )
   }
 }
 
