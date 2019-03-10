@@ -1,0 +1,67 @@
+.Hire-placeholder {
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue";
+    font-weight: 200;
+    font-size: 28px;
+    color: #6A6B68;
+}
+
+.Input-email {
+    width: inherit;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-weight: 200;
+    font-size: 28px;
+    color: #6E6E6E;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-width: 2px;
+    outline: none;
+}
+
+::placeholder {
+    color: #ACACAC;
+}
+
+.Input-message {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-weight: 200;
+    font-size: 28px;
+    color: #6E6E6E;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    padding: 20px;
+    outline: none;
+    height: 186px;
+    text-align: start;
+    resize: none;
+    width: 620px;
+}
+
+.Attach-button {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue";
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #BD7676;
+    background-color: unset;
+    outline: none;
+    border: none;
+}
+
+.Submit-button {
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #BD7676;
+    outline: none;
+    border: none;
+    height: 93px;
+    width: 277px;
+    border-radius: 10px;
+}

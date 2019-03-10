@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Header } from "./header/Header";
 import { RecentWork } from "./recent-work/RecentWork";
-import { HireMe } from "./Hire";
+import { HireMe } from "./hire/Hire";
 import { Footer } from "./Footer";
 
 class App extends Component {
