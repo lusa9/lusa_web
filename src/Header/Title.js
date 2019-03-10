@@ -6,13 +6,13 @@ export class Title extends Component {
     return (
         <div style={{display: "flex", alignItems: "center"}}>
             <text className="Header-title">Fast</text>
-            <view style={{width: 40}}/>
+            <div style={{width: 40}}/>
             <img src="/assets/oval.png"/>
-            <view style={{width: 40}}/>
+            <div style={{width: 40}}/>
             <text className="Header-title">Sleek</text>
-            <view style={{width: 40}}/>
+            <div style={{width: 40}}/>
             <img src="/assets/oval.png"/>
-            <view style={{width: 40}}/>
+            <div style={{width: 40}}/>
             <text className="Header-title">Solid</text>
         </div>
     )

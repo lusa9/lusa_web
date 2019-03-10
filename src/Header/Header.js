@@ -4,14 +4,14 @@ import { Title } from "./Title";
 export class Header extends Component {
   render() {
     return (
-        <view style={{display: "flex", flexDirection: "column", alignItems: "center", height: 822, backgroundColor: "white"}}>
-          <view style={{height: 164}}/>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", height: 822, backgroundColor: "white"}}>
+          <div style={{height: 164}}/>
           <img src="/assets/logo_big.png" alt="logo"></img>
-          <view style={{height: 20}}/>
+          <div style={{height: 20}}/>
           <Title/>
-          <view style={{height: 90}}/>
+          <div style={{height: 90}}/>
           <text className="Header-subtitle">{"Web & Mobile Development"}</text>
-        </view>
+        </div>
     )
   }
 }
