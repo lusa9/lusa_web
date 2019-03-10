@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Header } from "./Header/Header";
-import { RecentWork } from "./RecentWork";
+import { Header } from "./header/Header";
+import { RecentWork } from "./recent-work/RecentWork";
 import { HireMe } from "./Hire";
 import { Footer } from "./Footer";
 

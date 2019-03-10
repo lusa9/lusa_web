@@ -13,7 +13,7 @@ export class Title extends Component {
             <view style={{width: 40}}/>
             <img src="/assets/oval.png"/>
             <view style={{width: 40}}/>
-            <text className="Header-title">Sexy</text>
+            <text className="Header-title">Solid</text>
         </div>
     )
   }

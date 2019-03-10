@@ -1,0 +1,15 @@
+.RecentWork-title {
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue";
+    font-weight: 200;
+    font-size: 58px;
+    color: #6E6E6E;
+}
+
+.RecentWork-description {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #6E6E6E;
+}
