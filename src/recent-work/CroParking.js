@@ -13,7 +13,7 @@ export class CroParking extends Component {
             <div style={{height: 30}}/>
             <text style={{width: 470}} className="RecentWork-description">{"Simple & Fast parking SMS Generator built in React Native"}</text>
             <div style={{height: 150}}/>
-            <img src="/assets/google_play.png"/>
+            <button className="GooglePlayButton" onClick={ () => window.location.href="https://play.google.com/store/apps/details?id=com.lusa.croparking&hl=en"}/>
           </div>
         </div>
     )

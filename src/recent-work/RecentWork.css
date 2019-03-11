@@ -6,3 +6,12 @@
     text-align: center;
     color: #6E6E6E;
 }
+
+.GooglePlayButton {
+    background: url("/assets/google_play.png");
+    width: 277px;
+    height: 83px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
