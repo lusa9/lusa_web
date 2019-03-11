@@ -66,11 +66,6 @@
     border-radius: 10px;
 }
 
-.Feedback-message {
-    width: 900px;
-    text-align: center;
-}
-
 .Contact-form {
     display: flex;
     flex-direction: column;
@@ -78,40 +73,35 @@
     width: 660px;
 }
 
-/* Contact Form Animations */
-.form-appear {
-    opacity: 0;
-    /* height: 558px; */
-}
-
-.form-appear.form-appear-active {
-    opacity: 1;
-    /* height: 20px; */
-}
-
-.form-enter {
+.fade-appear {
     opacity: 0;
 }
 
-.form-enter.form-enter-active {
+.fade-appear.fade-appear-active {
     opacity: 1;
-    transition: opacity 1000ms linear;
+    transition: opacity 300ms linear;
 }
 
-/* Text Animations */
-.text-resize-appear {
+.fade-exit {
     opacity: 1;
-    height: 558px;
 }
 
-.text-resize-enter {
-    opacity: 1;
-    height: 558px;
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms linear;
 }
 
-.text-resize-enter.text-rezise-enter-active {
+.fade-exit-done {
+    opacity: 0;
+}
+
+.fade-enter {
+    opacity: 0;
+    height: inherit;
+}
+
+.fade-enter.fade-enter-active {
     opacity: 1;
-    height: 100px;
-    transition: height 1000ms linear;
+    transition: opacity 300ms linear;
 }
 
