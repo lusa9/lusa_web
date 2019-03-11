@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import "../App.css";
-import { ContactForm } from "./ContactForm";
+import { FeedbackMessage } from "./FeedbackMessage";
+import { Form } from "./Form";
+import "./Hire.css";
+
 
 export class HireMe extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      formSubmitted: false
+    }
+  }
+
   render() {
-    return (
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "white"}}>
-          <div style={{height: 120}}/>
-          <text className="App-title">Hire Us</text>
-          <div style={{height: 110}}/>
-          <ContactForm/>
-          <div style={{height: 220}}/>
-        </div>
-    )
+    return (this.state.formSubmitted 
+      ? <FeedbackMessage/> 
+      : <Form onSubmit={() => this.setState({formSubmitted: true})}/>)
   }
 }

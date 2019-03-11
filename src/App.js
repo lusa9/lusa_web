@@ -5,9 +5,10 @@ import { HireMe } from "./hire/Hire";
 import { Footer } from "./Footer";
 
 class App extends Component {
+
   render() {
     return (
-      <div style={{display: "flex", flexDirection: "column", minHeight: "100vh", backgroundColor: "whitesmoke"}}>
+      <div style={{display: "flex", flexDirection: "column", minHeight: "100vh"}}>
         <Header/>
         <RecentWork/>
         <HireMe/>

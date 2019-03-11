@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Header.css";
 
-export class Title extends Component {
+export class LogoTitle extends Component {
   render() {
     return (
         <div style={{display: "flex", alignItems: "center"}}>

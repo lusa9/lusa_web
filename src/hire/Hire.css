@@ -65,3 +65,53 @@
     width: 277px;
     border-radius: 10px;
 }
+
+.Feedback-message {
+    width: 900px;
+    text-align: center;
+}
+
+.Contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 660px;
+}
+
+/* Contact Form Animations */
+.form-appear {
+    opacity: 0;
+    /* height: 558px; */
+}
+
+.form-appear.form-appear-active {
+    opacity: 1;
+    /* height: 20px; */
+}
+
+.form-enter {
+    opacity: 0;
+}
+
+.form-enter.form-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms linear;
+}
+
+/* Text Animations */
+.text-resize-appear {
+    opacity: 1;
+    height: 558px;
+}
+
+.text-resize-enter {
+    opacity: 1;
+    height: 558px;
+}
+
+.text-resize-enter.text-rezise-enter-active {
+    opacity: 1;
+    height: 100px;
+    transition: height 1000ms linear;
+}
+
