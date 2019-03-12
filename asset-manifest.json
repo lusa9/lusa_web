@@ -1,17 +1,13 @@
 {
-  "main.css": "/lusa_web/static/css/main.3ff486f4.chunk.css",
-  "main.js": "/lusa_web/static/js/main.0132e757.chunk.js",
-  "main.js.map": "/lusa_web/static/js/main.0132e757.chunk.js.map",
-  "runtime~main.js": "/lusa_web/static/js/runtime~main.758805a2.js",
-  "runtime~main.js.map": "/lusa_web/static/js/runtime~main.758805a2.js.map",
-  "static/js/2.eba40ee5.chunk.js": "/lusa_web/static/js/2.eba40ee5.chunk.js",
-  "static/js/2.eba40ee5.chunk.js.map": "/lusa_web/static/js/2.eba40ee5.chunk.js.map",
-  "index.html": "/lusa_web/index.html",
-  "precache-manifest.921986a9c21ef4a45e85e1fc98cfd8a8.js": "/lusa_web/precache-manifest.921986a9c21ef4a45e85e1fc98cfd8a8.js",
-  "service-worker.js": "/lusa_web/service-worker.js",
-  "static/css/main.3ff486f4.chunk.css.map": "/lusa_web/static/css/main.3ff486f4.chunk.css.map",
-  "static/media/croparkingapp.jpg": "/lusa_web/static/media/croparkingapp.42f638fb.jpg",
-  "static/media/RecentWork.css": "/lusa_web/static/media/google_play.a5f58447.png",
-  "static/media/logo_big.png": "/lusa_web/static/media/logo_big.678dc44e.png",
-  "static/media/react.png": "/lusa_web/static/media/react.b78ad876.png"
+  "main.css": "/static/css/main.1a703817.chunk.css",
+  "main.js": "/static/js/main.d376dc3d.chunk.js",
+  "main.js.map": "/static/js/main.d376dc3d.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
+  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
+  "static/js/2.950f48ee.chunk.js": "/static/js/2.950f48ee.chunk.js",
+  "static/js/2.950f48ee.chunk.js.map": "/static/js/2.950f48ee.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.8cbd9561c64d93a818bb3b2afa047c18.js": "/precache-manifest.8cbd9561c64d93a818bb3b2afa047c18.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.1a703817.chunk.css.map": "/static/css/main.1a703817.chunk.css.map"
 }
