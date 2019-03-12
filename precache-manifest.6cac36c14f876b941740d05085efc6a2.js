@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "04a7e60674a17410f37d",
+    "revision": "613a46d0923b3135701a",
     "url": "/lusa_web/static/css/main.ae22e893.chunk.css"
   },
   {
-    "revision": "04a7e60674a17410f37d",
-    "url": "/lusa_web/static/js/main.8fd178c4.chunk.js"
+    "revision": "613a46d0923b3135701a",
+    "url": "/lusa_web/static/js/main.41614ad8.chunk.js"
   },
   {
     "revision": "a315eaff0131adb152ac",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/lusa_web/static/js/2.7abcb760.chunk.js"
   },
   {
-    "revision": "f6dbf20056aaba90ef675f7de3ae1253",
+    "revision": "6ba9bf598cad4dc86edf3efec2739ac9",
     "url": "/lusa_web/index.html"
   }
 ];
