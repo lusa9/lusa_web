@@ -1,13 +1,13 @@
 {
   "main.css": "/lusa_web/static/css/main.ae22e893.chunk.css",
-  "main.js": "/lusa_web/static/js/main.302bfd58.chunk.js",
-  "main.js.map": "/lusa_web/static/js/main.302bfd58.chunk.js.map",
+  "main.js": "/lusa_web/static/js/main.8fd178c4.chunk.js",
+  "main.js.map": "/lusa_web/static/js/main.8fd178c4.chunk.js.map",
   "runtime~main.js": "/lusa_web/static/js/runtime~main.758805a2.js",
   "runtime~main.js.map": "/lusa_web/static/js/runtime~main.758805a2.js.map",
-  "static/js/2.05096673.chunk.js": "/lusa_web/static/js/2.05096673.chunk.js",
-  "static/js/2.05096673.chunk.js.map": "/lusa_web/static/js/2.05096673.chunk.js.map",
+  "static/js/2.7abcb760.chunk.js": "/lusa_web/static/js/2.7abcb760.chunk.js",
+  "static/js/2.7abcb760.chunk.js.map": "/lusa_web/static/js/2.7abcb760.chunk.js.map",
   "index.html": "/lusa_web/index.html",
-  "precache-manifest.d297d65d804cb8b374c54b21e010fd26.js": "/lusa_web/precache-manifest.d297d65d804cb8b374c54b21e010fd26.js",
+  "precache-manifest.14cd3f867d1d32110c6ad5904561111c.js": "/lusa_web/precache-manifest.14cd3f867d1d32110c6ad5904561111c.js",
   "service-worker.js": "/lusa_web/service-worker.js",
   "static/css/main.ae22e893.chunk.css.map": "/lusa_web/static/css/main.ae22e893.chunk.css.map"
 }
