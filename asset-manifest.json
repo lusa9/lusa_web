@@ -1,5 +1,5 @@
 {
-  "main.css": "/lusa_web/static/css/main.ae22e893.chunk.css",
+  "main.css": "/lusa_web/static/css/main.7a5c49c0.chunk.css",
   "main.js": "/lusa_web/static/js/main.41614ad8.chunk.js",
   "main.js.map": "/lusa_web/static/js/main.41614ad8.chunk.js.map",
   "runtime~main.js": "/lusa_web/static/js/runtime~main.758805a2.js",
@@ -7,7 +7,7 @@
   "static/js/2.7abcb760.chunk.js": "/lusa_web/static/js/2.7abcb760.chunk.js",
   "static/js/2.7abcb760.chunk.js.map": "/lusa_web/static/js/2.7abcb760.chunk.js.map",
   "index.html": "/lusa_web/index.html",
-  "precache-manifest.6cac36c14f876b941740d05085efc6a2.js": "/lusa_web/precache-manifest.6cac36c14f876b941740d05085efc6a2.js",
+  "precache-manifest.90a96fd75bd8b60caa6f71174d2d73e0.js": "/lusa_web/precache-manifest.90a96fd75bd8b60caa6f71174d2d73e0.js",
   "service-worker.js": "/lusa_web/service-worker.js",
-  "static/css/main.ae22e893.chunk.css.map": "/lusa_web/static/css/main.ae22e893.chunk.css.map"
+  "static/css/main.7a5c49c0.chunk.css.map": "/lusa_web/static/css/main.7a5c49c0.chunk.css.map"
 }
