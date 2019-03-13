@@ -8,7 +8,7 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{display: "flex", flexDirection: "column", minHeight: "100vh"}}>
+      <div style={{display: "flex", flex:1, flexDirection: "column", minHeight: "100vh"}}>
         <Header/>
         <RecentWork/>
         <HireMe/>
