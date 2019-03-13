@@ -3,13 +3,15 @@ import { Header } from "./header/Header";
 import { RecentWork } from "./recent-work/RecentWork";
 import { HireMe } from "./hire/Hire";
 import { Footer } from "./Footer";
+import { WhatWeDo } from './what-we-do/WhatWeDo';
 
 class App extends Component {
 
   render() {
     return (
-      <div style={{display: "flex", flex:1, flexDirection: "column", minHeight: "100vh"}}>
+      <div className="app-container">
         <Header/>
+        <WhatWeDo/>
         <RecentWork/>
         <HireMe/>
         <Footer/>

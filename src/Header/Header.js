@@ -5,7 +5,7 @@ import "./Header.css"
 export class Header extends Component {
   render() {
     return (
-        <div className="container">
+        <div className="header-container">
           <Space height={180}/>
           <div className="logo-container-underline">
             <div className="logo-container">
