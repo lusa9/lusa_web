@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { LogoTitle } from "./LogoTitle";
 import { Space } from "../modules/shared-components/index";
 import "./Header.css"
 
