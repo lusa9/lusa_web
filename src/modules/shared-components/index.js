@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { black } from 'ansi-colors';
 
 export class Title extends Component {
     render() {
@@ -9,7 +10,7 @@ export class Title extends Component {
                     "font-family": ["HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue"],
                     "font-weight": "200",
                     "font-size": "58px",
-                    "color": "#6E6E6E"
+                    "color": black
                 }}
             >{this.props.text}
             </text>

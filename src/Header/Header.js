@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Space } from "../modules/shared-components/index";
-import "./Header.css"
+import "./Header.css";
 
 export class Header extends Component {
   render() {
