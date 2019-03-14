@@ -10,7 +10,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
     font-weight: 200;
     font-size: 28px;
-    color: #6E6E6E;
+    color: black;
     border-color: rgb(238, 238, 238);
     border-style: solid;
     border-top: unset;
@@ -28,7 +28,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
     font-weight: 200;
     font-size: 28px;
-    color: #6E6E6E;
+    color: black;
     border-width: 2px;
     border-radius: 10px;
     border-color: rgb(238, 238, 238);
@@ -46,7 +46,7 @@
     font-weight: 500;
     font-size: 28px;
     text-align: center;
-    color: #BD7676;
+    color: var(--accent-color);
     background-color: unset;
     outline: none;
     border: none;
@@ -58,7 +58,7 @@
     font-size: 30px;
     text-align: center;
     color: white;
-    background-color: #BD7676;
+    background-color: var(--accent-color);
     outline: none;
     border: none;
     height: 93px;

@@ -18,7 +18,7 @@ export class Form extends Component {
           <div style={{height: 100}}/>
           <button onClick={this.props.onSubmit} className="Submit-button">Send</button>
         </div>
-        <Space height={220}/>
+        <Space height={300}/>
       </div>
     )
   }
