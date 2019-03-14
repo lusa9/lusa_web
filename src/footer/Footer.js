@@ -16,7 +16,7 @@ export class Footer extends Component {
           </div>
           <Space height={100}/>
           <img src="/assets/logo_medium.png"/>
-          <Space height={50}/>
+          <Space height={30}/>
         </div>
     )
   }

@@ -16,34 +16,30 @@
     align-items: flex-end;
 }
 
-.line {
-    display: flex;
-    flex: 1;
-    height: 6px;
-    background-color: var(--accent-color);
-    margin-top: -4px;
-    z-index: 2;
-}
-
 .lusa-development {
+    display: flex;
     z-index: 1;
-    margin-right: -225px;
+    margin-right: -117px;
 }
 
-.lusa {
+.lusadevelopment {
     font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
-    letter-spacing: -6.5px;
-    line-height: 74px;
-    font-size: 100px;
-    color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--accent-color);
+    letter-spacing: -6.47px;
+    line-height: 70px;
+    font-size: 90px;
+    color: black;
 }
 
-.development {
-    font-family: "Helvetica Neue";
-    letter-spacing: -6.5px;
-    line-height: 74px;
-    font-size: 100px;
-    color: var(--accent-color);
+.blinking-cursor-visible {
+    display: flex;
+    background-color: black;
+    width: 3px;
+    margin-left: 8px;
+}
+
+.blinking-cursor-hidden {
+    display: flex;
+    width: 3px;
+    margin-left: 8px;
+    visibility: hidden;
 }
