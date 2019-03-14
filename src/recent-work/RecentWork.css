@@ -16,19 +16,18 @@
 }
 
 .RecentWork-title {
-    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue";
     font-weight: 100;
-    font-size: 60px;
-    width: 410px;
+    font-size: 63px;
+    letter-spacing: -5px;
     text-align: center;
     color: black;
 }
 
 .RecentWork-description {
-    font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue";
-    font-size: 24px;
-    line-height: 30px;
-    width: 410px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    width: 408px;
     text-align: center;
     color: black;
 }

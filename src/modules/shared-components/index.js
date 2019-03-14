@@ -7,10 +7,9 @@ export class Title extends Component {
         return (
             <text style={{
                     ...this.props.style,
-                    "font-family": ["HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue"],
-                    "font-weight": "200",
-                    "font-size": "58px",
-                    "color": black
+                    fontWeight: 300,
+                    letterSpacing: -3,
+                    fontSize: 64
                 }}
             >{this.props.text}
             </text>

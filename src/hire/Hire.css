@@ -1,15 +1,8 @@
-.Hire-placeholder {
-    font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue";
-    font-weight: 200;
-    font-size: 28px;
-    color: #6A6B68;
-}
-
 .Input-email {
     width: inherit;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
-    font-weight: 200;
-    font-size: 28px;
+    font-weight: 300;
+    font-size: 29px;
+    letter-spacing: -0.6px;
     color: black;
     border-color: rgb(238, 238, 238);
     border-style: solid;
@@ -25,10 +18,8 @@
 }
 
 .Input-message {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
-    font-weight: 200;
-    font-size: 28px;
-    color: black;
+    font-weight: 300;
+    font-size: 29px;
     border-width: 2px;
     border-radius: 10px;
     border-color: rgb(238, 238, 238);
@@ -42,7 +33,6 @@
 }
 
 .Attach-button {
-    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue";
     font-weight: 500;
     font-size: 28px;
     text-align: center;
@@ -53,9 +43,8 @@
 }
 
 .Submit-button {
-    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 31px;
     text-align: center;
     color: white;
     background-color: var(--accent-color);
@@ -71,37 +60,5 @@
     flex-direction: column;
     align-items: center;
     width: 660px;
-}
-
-.fade-appear {
-    opacity: 0;
-}
-
-.fade-appear.fade-appear-active {
-    opacity: 1;
-    transition: opacity 300ms linear;
-}
-
-.fade-exit {
-    opacity: 1;
-}
-
-.fade-exit.fade-exit-active {
-    opacity: 0;
-    transition: opacity 300ms linear;
-}
-
-.fade-exit-done {
-    opacity: 0;
-}
-
-.fade-enter {
-    opacity: 0;
-    height: inherit;
-}
-
-.fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: opacity 300ms linear;
 }
 
