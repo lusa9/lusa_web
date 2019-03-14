@@ -20,6 +20,7 @@
     display: flex;
     z-index: 1;
     margin-right: -117px;
+    user-select: none;
 }
 
 .lusadevelopment {

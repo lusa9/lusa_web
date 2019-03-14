@@ -36,7 +36,7 @@ export class Header extends Component {
                 <text className="lusadevelopment">Lusadevelopment</text>
                 <view className={cursorClassName}></view>
               </div>
-              <img src="/assets/logo_big.png" alt="logo" className="logo"></img>
+              <img src="/assets/logo_big.png" alt="logo" draggable={false}></img>
             </div>
           </div>
         </div>
