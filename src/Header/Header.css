@@ -1,13 +1,46 @@
-.Header-title {
-    font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue";
-    font-weight: 200;
-    font-size: 80px;
-    color: #898989;
+@import url(../Shared.css);
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Header-subtitle {
-    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue";
-    font-weight: 100;
-    font-size: 30px;
-    color: #898989;
+.logo-container-underline {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lusa-development {
+    display: flex;
+    z-index: 1;
+    margin-right: -117px;
+    user-select: none;
+}
+
+.lusadevelopment {
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue";
+    letter-spacing: -6.47px;
+    line-height: 70px;
+    font-size: 90px;
+    color: black;
+}
+
+.blinking-cursor-visible {
+    display: flex;
+    background-color: black;
+    width: 3px;
+    margin-left: 8px;
+}
+
+.blinking-cursor-hidden {
+    display: flex;
+    width: 3px;
+    margin-left: 8px;
+    visibility: hidden;
 }

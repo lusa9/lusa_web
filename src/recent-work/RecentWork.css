@@ -1,10 +1,36 @@
-.RecentWork-description {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 36px;
+.recent-work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-color);
+}
+
+.published-apps-croparking-container {
+    display: flex;
+}
+
+.published-apps-croparking-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RecentWork-title {
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue";
+    font-weight: 100;
+    font-size: 60px;
+    width: 410px;
     text-align: center;
-    color: #6E6E6E;
+    color: black;
+}
+
+.RecentWork-description {
+    font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue";
+    font-size: 24px;
+    line-height: 30px;
+    width: 410px;
+    text-align: center;
+    color: black;
 }
 
 .GooglePlayButton {

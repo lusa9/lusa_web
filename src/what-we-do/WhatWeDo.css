@@ -1,0 +1,11 @@
+.what-we-do-container {
+    background-color: var(--light-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-we-do-item-description {
+    font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue";
+    font-size: 28px;
+}
