@@ -9,11 +9,11 @@ export class WhatWeDo extends Component {
     return (
         <div className="what-we-do-container">
           <BigSpace/>
-          <img src="/assets/macbook.png"/>
+          <img className="image" src="/assets/macbook.png"/>
           <SmallSpace/>
           <text className="what-we-do-item-description">Web Frontend using HTML & CSS with Angular, React or Vue.js</text>
           <BigSpace/>
-          <img src="/assets/phones.png"/>
+          <img className="image" src="/assets/phones.png"/>
           <SmallSpace/>
           <text className="what-we-do-item-description">Cross-Platform Mobile development with React Native</text>
           <BigSpace/>

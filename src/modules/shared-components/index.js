@@ -9,7 +9,10 @@ export class Title extends Component {
                     ...this.props.style,
                     fontWeight: 300,
                     letterSpacing: -3,
-                    fontSize: 64
+                    fontSize: 64,
+                    textAlign: "center",
+                    marginLeft: 20,
+                    marginRight: 20
                 }}
             >{this.props.text}
             </text>

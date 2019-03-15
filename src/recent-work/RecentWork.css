@@ -23,6 +23,8 @@
 }
 
 .RecentWork-title {
+    display: flex;
+    flex: 1;
     font-weight: 100;
     font-size: 63px;
     letter-spacing: -5px;
@@ -31,10 +33,12 @@
 }
 
 .RecentWork-description {
+    display: flex;
+    flex: 1;
     font-size: 25px;
     line-height: 32px;
     letter-spacing: -0.2px;
-    width: 408px;
+    max-width: 408px;
     text-align: center;
     color: black;
 }

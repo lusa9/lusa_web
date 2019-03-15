@@ -8,25 +8,32 @@
 
 .logo-container {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
+    flex-wrap: wrap-reverse;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .logo {
-    margin-top: 40px;
     margin-left: -117px;
     margin-right: -117px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .lusa-development {
     display: flex;
     z-index: 1;
     user-select: none;
+    margin-top: 20px;
 }
 
 .lusadevelopment {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     font-weight: 700;
     letter-spacing: -6.47px;
     line-height: 62px;
