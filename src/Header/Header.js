@@ -29,15 +29,12 @@ export class Header extends Component {
     const cursorClassName = "blinking-cursor-" + (this.state.cursorIsVisible ? "visible" : "hidden")
     return (
         <div className="header-container">
-          <Space height={80}/>
-          <div className="logo-container-underline">
-            <div className="logo-container">
-              <div className="lusa-development">
-                <text className="lusadevelopment">Lusadevelopment</text>
-                <view className={cursorClassName}></view>
-              </div>
-              <img src="/assets/logo_big.png" alt="logo" draggable={false}></img>
+          <div className="logo-container">
+            <div className="lusa-development">
+              <text className="lusadevelopment">Lusadevelopment</text>
+              <view className={cursorClassName}></view>
             </div>
+            <img className="logo" src="/assets/logo_big.png" alt="logo" draggable={false}></img>
           </div>
         </div>
     )
