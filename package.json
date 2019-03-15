@@ -16,7 +16,6 @@
     "eject": "react-scripts eject",
     "deploy": "yarn run build && echo 'lusa.dev' > ./build/CNAME && gh-pages -d build"
   },
-  "homepage": "https://lusa.dev",
   "eslintConfig": {
     "extends": "react-app"
   },
