@@ -23,6 +23,10 @@
 
 ::placeholder {
     color: #ACACAC;
+    font-weight: 300;
+    font-size: 29px;
+    letter-spacing: -0.6px;
+    text-align: start;
 }
 
 .Input-message {

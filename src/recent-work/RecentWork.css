@@ -10,6 +10,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .published-apps-croparking-description-container {
