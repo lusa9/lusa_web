@@ -34,7 +34,7 @@ export class Header extends Component {
               <text className="lusadevelopment">Lusadevelopment</text>
               <view className={cursorClassName}></view>
             </div>
-            <img className="logo" src="/assets/logo_big.png" alt="logo" draggable={false}></img>
+            <img className="logo" src="/assets/logo_big.png" alt="logo" draggable={false} onSelect={() => false} onMouseDown={() => false} onContextMenu={() => false}></img>
           </div>
         </div>
     )
