@@ -29,13 +29,6 @@
     height: 20px;
 }
 
-@media only screen and (min-width: 375px) {
-    .item-description {
-        letter-spacing: -0.14px;
-        font-size: 21px;
-    }
-}
-
 @media only screen and (min-width: 600px) {
     .item-description {
         letter-spacing: -0.16px;
