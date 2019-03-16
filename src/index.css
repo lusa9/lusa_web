@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 
+:root {
+  --accent-color: #F16666;
+  --light-background-color: #F6F6F6;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,4 +18,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.bigspace {
+  height: 100px;
+}
+
+.smallspace {
+  height: 20px;
+}
+
+.title {
+  font-weight: 300;
+  letter-spacing: -1.88px;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 375px) {
+  .title {
+    letter-spacing: -2.11px;
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+    .bigspace {
+      height: 180px;
+    }
+
+    .smallspace {
+        height: 30px;
+    }
+
+    .title {
+      letter-spacing: -2.72px;
+      font-size: 58px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .bigspace {
+      height: 270px;
+    }
+    
+    .smallspace {
+      height: 50px;
+    }
+    
+    .title {
+      letter-spacing: -3px;
+      font-size: 64px;
+    }
 }

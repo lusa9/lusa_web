@@ -5,21 +5,32 @@
     background-color: var(--accent-color);
 }
 
-.published-apps-croparking-container {
+.published-apps-item-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+}
+
+.recent-work-item-space {
+    height: 80px;
+}
+
+.published-apps-item-image {
+    width: 80vw;
+}
+
+.project-description {
+    letter-spacing: -0.11px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    width: 90vw;
 }
 
 .published-apps-croparking-description-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-}
-
-.published-app-title-description-spacing {
-    height: 10px;
 }
 
 .RecentWork-title {
@@ -44,168 +55,36 @@
 }
 
 .GooglePlayButton {
-    background: url("/assets/google_play.png");
-    width: 277px;
-    height: 83px;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-.bigspace {
-    height: 80px;
-}
-
-.title {
-    font-weight: 300;
-    letter-spacing: -2.25px;
-    text-align: center;
-    font-size: 48px;
-}
-
-.published-app-description-buttons-spacing {
-    height: 80px;
-}
-
-.app-image {
+@media only screen and (min-width: 394px) {
+    .published-apps-item-image {
+        width: auto;
+    }
+    
+    .project-description {
+        letter-spacing: -0.13px;
+        font-size: 20px;
+        line-height: 22px;
+        width: 85vw;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    .recent-work-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: var(--accent-color);
-    }
-    
-    .published-apps-croparking-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .published-apps-croparking-description-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-    
-    .published-app-title-description-spacing {
-        height: 10px;
-    }
-    
-    .RecentWork-title {
-        display: flex;
-        flex: 1;
-        font-weight: 100;
-        font-size: 63px;
-        letter-spacing: -5px;
-        text-align: center;
-        color: black;
-    }
-    
-    .RecentWork-description {
-        display: flex;
-        font-size: 20px;
-        line-height: 22px;
-        letter-spacing: -0.13px;
-        text-align: center;
-        color: black;
-        width: 85vw;
-    }
-    
-    .GooglePlayButton {
-        background: url("/assets/google_play.png");
-        width: 277px;
-        height: 83px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-    
-    .bigspace {
-        height: 80px;
-    }
-    
-    .title {
-        font-weight: 300;
-        letter-spacing: -2.25px;
-        text-align: center;
-        font-size: 48px;
-    }
-    
-    .published-app-description-buttons-spacing {
-        height: 80px;
+    .project-description {
+        letter-spacing: -0.16px;
+        font-size: 23px;
+        line-height: 32px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .recent-work-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: var(--accent-color);
-    }
-    
-    .published-apps-croparking-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .published-apps-croparking-description-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-    
-    .published-app-title-description-spacing {
-        height: 10px;
-    }
-    
-    .RecentWork-title {
-        display: flex;
-        flex: 1;
-        font-weight: 100;
-        font-size: 63px;
-        letter-spacing: -5px;
-        text-align: center;
-        color: black;
-    }
-    
-    .RecentWork-description {
-        display: flex;
-        font-size: 20px;
-        line-height: 22px;
-        letter-spacing: -0.13px;
-        text-align: center;
-        color: black;
-        width: 85vw;
-    }
-    
-    .GooglePlayButton {
-        background: url("/assets/google_play.png");
-        width: 277px;
-        height: 83px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-    
-    .bigspace {
-        height: 80px;
-    }
-    
-    .title {
-        font-weight: 300;
-        letter-spacing: -2.25px;
-        text-align: center;
-        font-size: 48px;
-    }
-    
-    .published-app-description-buttons-spacing {
-        height: 80px;
+    .project-description {
+        letter-spacing: -0.2px;
+        font-size: 29px;
+        line-height: 34px;
     }
 }
