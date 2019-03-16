@@ -22,10 +22,12 @@ code {
 
 .bigspace {
   height: 100px;
+  width: 100px;
 }
 
 .smallspace {
   height: 20px;
+  width: 20px;
 }
 
 .title {
@@ -33,6 +35,10 @@ code {
   letter-spacing: -1.88px;
   text-align: center;
   font-size: 40px;
+}
+
+.title-space {
+  height: 60px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -49,25 +55,36 @@ code {
 
     .smallspace {
         height: 30px;
+        width: 30px;
     }
 
     .title {
       letter-spacing: -2.72px;
       font-size: 58px;
     }
+
+    .title-space {
+      height: 90px;
+    }
   }
   
   @media only screen and (min-width: 768px) {
     .bigspace {
       height: 270px;
+      width: 270px;
     }
     
     .smallspace {
       height: 50px;
+      width: 50px;
     }
     
     .title {
       letter-spacing: -3px;
       font-size: 64px;
+    }
+
+    .title-space {
+      height: 150px;
     }
 }
