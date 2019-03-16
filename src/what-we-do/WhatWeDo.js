@@ -7,15 +7,23 @@ export class WhatWeDo extends Component {
     return (
         <div className="what-we-do-container">
           <div className="bigspace"/>
-          <img className="image" src="/assets/macbook.png"/>
-          <div className="smallspace"/>
-          <text className="what-we-do-item-description">Web Frontend using HTML & CSS with Angular, React or Vue.js</text>
+          <Item imagesrc="/assets/macbook.png" description="Web Frontend using HTML & CSS with Angular, React or Vue.js"/>
           <div className="bigspace"/>
-          <img className="image" src="/assets/phones.png"/>
-          <div className="smallspace"/>
-          <text className="what-we-do-item-description">Cross-Platform Mobile development with React Native</text>
+          <Item imagesrc="/assets/phones.png" description="Cross-Platform Mobile development with React Native"/>
           <div className="bigspace"/>
         </div>
+    )
+  }
+}
+
+class Item extends Component {
+  render() {
+    return (
+      <div className="item-container">
+        <img className="image" src={this.props.imagesrc}/>
+        <div className="smallspace"/>
+        <text className="item-description">{this.props.description}</text>
+      </div>
     )
   }
 }

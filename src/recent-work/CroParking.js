@@ -6,12 +6,12 @@ export class CroParking extends Component {
   render() {
     return (
         <div className="published-apps-croparking-container">
-          <img src="assets/croparkingapp.png"/>
+          <img className="app-image" src="assets/croparkingapp.png"/>
           <div className="published-apps-croparking-description-container">
             <text className="RecentWork-title">CroParking</text>
-            <Space height={30}/>
-            <text className="RecentWork-description">{"Simple & Fast parking SMS Generator built in React Native"}</text>
-            <Space height={220}/>
+            <div className="published-app-title-description-spacing"/>
+            <text className="RecentWork-description">Simple & Fast parking SMS Generator built in React Native</text>
+            <div className="published-app-description-buttons-spacing"/>
             <a className="GooglePlayButton" href="https://play.google.com/store/apps/details?id=com.lusa.croparking&hl=en"></a>
           </div>
         </div>

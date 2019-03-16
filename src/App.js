@@ -12,9 +12,9 @@ class App extends Component {
       <div className="app-container">
         <Header/>
         <WhatWeDo/>
-        <RecentWork/>
+        {/* <RecentWork/> */}
         {/* <HireMe/> */}
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }

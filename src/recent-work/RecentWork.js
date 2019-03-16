@@ -7,14 +7,13 @@ import { Title, Space } from '../modules/shared-components';
 
 export class RecentWork extends Component {
   render() {
-    const BigSpace = () => <Space height={120}/>
     return (
         <div className="recent-work-container">
-          <BigSpace/>
-          <Title text="Published Apps"/>
-          <BigSpace/>
+          <div className="bigspace"/>
+          <text className="title">Published Apps</text>
+          <div className="bigspace"/>
           <CroParking/>
-          <BigSpace/>
+          <div className="bigspace"/>
         </div>
     )
   }

@@ -3,7 +3,6 @@ import { black } from 'ansi-colors';
 
 export class Title extends Component {
     render() {
-        console.log(this.props)
         return (
             <text style={{
                     ...this.props.style,
