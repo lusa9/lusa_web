@@ -6,9 +6,9 @@ export class Form extends Component {
   render() {
     return (
       <div className="form-container">
-        <Space height={120}/>
-        <Title text="Hire Me"/>
-        <Space height={110}/>
+        <div className="title-space"/>
+        <text className="title">Hire Me</text>
+        <div className="form-title-space"/>
         <div className="form-inputs">
           <input className="Input-email" type="email" name="email" placeholder="Email adress*"></input>
           <div style={{height: 40}}/>
