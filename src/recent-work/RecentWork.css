@@ -41,9 +41,8 @@
 }
 
 .project-description {
-    letter-spacing: -0.11px;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     text-align: center;
     width: 90vw;
 }
@@ -66,18 +65,10 @@
     .project-image {
         width: auto;
     }
-    
-    .project-description {
-        letter-spacing: -0.13px;
-        font-size: 20px;
-        line-height: 22px;
-        width: 85vw;
-    }
 }
 
 @media only screen and (min-width: 600px) {
     .project-description {
-        letter-spacing: -0.16px;
         font-size: 23px;
         line-height: 32px;
     }
@@ -91,8 +82,7 @@
     }
     
     .project-description {
-        letter-spacing: -0.19px;
-        font-size: 27px;
+        font-size: 25px;
         line-height: 32px;
         width: 100%;
     }

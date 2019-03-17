@@ -28,9 +28,9 @@
 .lusadevelopment {
     display: flex;
     font-weight: 700;
-    letter-spacing: -2.44px;
+    font-size: 37px;
+    letter-spacing: -3.01px;
     line-height: 28px;
-    font-size: 40px;
     color: black;
 }
 
@@ -50,17 +50,17 @@
 
 @media only screen and (min-width: 375px) {
     .lusadevelopment {
-        letter-spacing: -2.75px;
-        line-height: 31px;
-        font-size: 45px;
+        font-size: 42px;
+        letter-spacing: -3.42px;
+        line-height: 32px;
     }
 }
 
 @media only screen and (min-width: 600px) {    
     .lusadevelopment {
-        letter-spacing: -4.15px;
+        letter-spacing: -5.13px;
         line-height: 48px;
-        font-size: 68px;
+        font-size: 63px;
     }
     
     .blinking-cursor-visible {
@@ -81,31 +81,25 @@
     }
     
     .logo {
-        margin-left: -492px;
+        margin-left: -500px;
         margin-right: 0px;
         width: 500px;
         height: 500px;
     }
-    
     .lusadevelopment {
-        letter-spacing: -6.47px;
+        letter-spacing: -7.98px;
         line-height: 74px;
-        font-size: 106px;
+        font-size: 98px;
     }
 }
 
-@media only screen and (min-width: 1184px) {
+@media only screen and (min-width: 1186px) {
     .header-container {
         align-items: center;
     }
     
     .logo {
-        margin-left: -70px;
+        margin-left: -75px;
     }
     
-    .lusadevelopment {
-        letter-spacing: -6.47px;
-        line-height: 74px;
-        font-size: 106px;
-    }
 }

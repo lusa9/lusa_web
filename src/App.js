@@ -13,7 +13,7 @@ class App extends Component {
         <Header/>
         <WhatWeDo/>
         <RecentWork/>
-        {/* <HireMe/> */}
+        <HireMe/>
         {/* <Footer/> */}
       </div>
     )

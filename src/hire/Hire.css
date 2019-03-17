@@ -1,44 +1,47 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 660px;
+}
+
+::placeholder, .Input-email, .Input-message {
+    font-size: 20px;
+    letter-spacing: -0.1px;
 }
 
 .Input-email {
-    display: flex;
-    flex: 1;
-    font-weight: 300;
-    font-size: 29px;
-    letter-spacing: -0.6px;
     color: black;
-    border-color: rgb(238, 238, 238);
-    border-style: solid;
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(238, 238, 238);
     outline: none;
 }
 
 ::placeholder {
     color: #ACACAC;
-    font-weight: 300;
-    font-size: 29px;
-    letter-spacing: -0.6px;
     text-align: start;
 }
 
+.email-message-space {
+    height: 20px;
+}
+
 .Input-message {
-    display: flex;
-    flex: 1;
-    font-weight: 300;
-    font-size: 29px;
-    letter-spacing: -0.6px;
     border-width: 2px;
     border-radius: 10px;
     border-color: rgb(238, 238, 238);
-    border-style: solid;
     padding: 20px;
     outline: none;
     height: 186px;
@@ -46,11 +49,14 @@
     resize: none;
 }
 
+.inputs-attach-space {
+    height: 10px;
+}
+
 .Attach-button {
     display: flex;
-    flex: 1;
-    font-weight: 500;
-    font-size: 28px;
+    font-size: 19px;
+    font-weight: 700;
     text-align: center;
     color: var(--accent-color);
     background-color: unset;
@@ -58,33 +64,73 @@
     border: none;
 }
 
+.form-send-space {
+    height: 50px;
+}
+
 .Submit-button {
+    font-size: 24px;
     font-weight: 700;
-    font-size: 31px;
     text-align: center;
     color: white;
     background-color: var(--accent-color);
     outline: none;
     border: none;
-    height: 93px;
-    width: 277px;
+    height: 74px;
+    width: 192px;
     border-radius: 10px;
 }
 
-.form-inputs {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    width: 660px;
-}
+@media only screen and (min-width: 600px) {
+    ::placeholder, .Input-email, .Input-message {
+        font-size: 23px;
+        letter-spacing: -0.12px;
+    }
 
-.form-title-space {
-    height: 110px;
-}
+    .email-message-space {
+        height: 30px;
+    }
 
-@media only screen and (min-width: 768px) {
-    .form-title-space {
-        height: 110px;
+    .inputs-attach-space {
+        height: 20px;
+    }
+
+    .Attach-button {
+        font-size: 26px;
+    }
+
+    .form-send-space {
+        height: 90px;
+    }
+
+    .Submit-button {
+        font-size: 28px;
+        width: 247px;
+        height: 84px;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    ::placeholder, .Input-email, .Input-message {
+        font-size: 24px;
+        letter-spacing: -0.12px;
+    }
+
+    .email-message-space {
+        height: 40px;
+    }
+
+    .Attach-button {
+        font-size: 28px;
+    }
+
+    .form-send-space {
+        height: 120px;
+    }
+
+    .Submit-button {
+        font-size: 30px;
+        width: 277px;
+        height: 93px;
+    }
+}

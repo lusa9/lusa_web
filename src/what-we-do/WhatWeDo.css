@@ -12,7 +12,6 @@
 }
 
 .item-description {
-    letter-spacing: -0.13px;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
@@ -25,7 +24,6 @@
 
 @media only screen and (min-width: 600px) {
     .item-description {
-        letter-spacing: -0.16px;
         font-size: 23px;
         line-height: 32px;
     }
@@ -33,7 +31,6 @@
 
 @media only screen and (min-width: 768px) {
     .item-description {
-        letter-spacing: -0.2px;
         font-size: 29px;
         line-height: 34px;
     }
