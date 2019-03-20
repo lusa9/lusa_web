@@ -19,25 +19,24 @@
 }
 
 .image {
-    width: 50vw;
+    width: 160px;
     max-width: max-content;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 375px) {
+    .image {
+        width: 187.5px;
+    }
+}
 
-    .item-description {
-        font-size: 23px;
-        line-height: 32px;
+@media only screen and (min-width: 600px) {
+    .image {
+        width: 220px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .item-description {
-        font-size: 29px;
-        line-height: 34px;
-    }
-    
     .image {
-        width: inherit;
+        width: 270px;
     }
 }

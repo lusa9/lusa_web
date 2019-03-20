@@ -9,7 +9,9 @@ export class WhatWeDo extends Component {
           <div className="bigspace"/>
           <Item imagesrc="/assets/macbook.png" description="Web Frontend using HTML & CSS with Angular, React or Vue.js"/>
           <div className="bigspace"/>
-          <Item imagesrc="/assets/phones.png" description="Cross-Platform Mobile development with React Native"/>
+          <Item imagesrc="/assets/phones.png" description="Cross-Platform Mobile in React Native"/>
+          <view className="bigspace"/>
+          <Item imagesrc="/assets/iphone.png" description="Native iOS"/>
           <view className="bigspace"/>
         </div>
     )

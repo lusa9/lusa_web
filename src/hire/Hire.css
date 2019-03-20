@@ -1,7 +1,6 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    background-color: white;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -19,14 +18,18 @@
     letter-spacing: -0.1px;
 }
 
+.Input-email, .Input-message {
+    background-color: var(--background-color);
+    border-color: #6E6E6E;
+    border-width: 2px;
+    outline: none;
+    color: var(--foreground-color);
+}
+
 .Input-email {
-    color: black;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-width: 2px;
-    border-bottom-color: rgb(238, 238, 238);
-    outline: none;
 }
 
 ::placeholder {
@@ -39,9 +42,7 @@
 }
 
 .Input-message {
-    border-width: 2px;
     border-radius: 10px;
-    border-color: rgb(238, 238, 238);
     padding: 20px;
     outline: none;
     height: 186px;

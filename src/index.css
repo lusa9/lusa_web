@@ -3,7 +3,7 @@
 :root {
   --accent-color: #FE7F67;
   --foreground-color: black;
-  --light-background-color: #F6F6F6;
+  --background-color: #F6F6F6;
 }
 
 body, input, textarea {
@@ -16,7 +16,7 @@ body, input, textarea {
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--light-background-color);
+  background-color: var(--background-color);
 }
 
 .bigspace {
@@ -39,6 +39,13 @@ body {
 .title-space {
   height: 60px;
 }
+
+.line {
+  height: 3px;
+  width: 80%;
+  background-color: var(--foreground-color);
+}
+
 @media only screen and (min-width: 375px) {
     .bigspace {
       height: 100px;
@@ -48,7 +55,7 @@ body {
 
 @media only screen and (min-width: 600px) {
     .bigspace {
-      height: 180px;
+      height: 140px;
     }
 
     .smallspace {
@@ -68,13 +75,13 @@ body {
   
   @media only screen and (min-width: 768px) {
     .bigspace {
-      height: 270px;
-      width: 270px;
+      height: 160px;
+      width: 160px;
     }
     
     .smallspace {
-      height: 50px;
-      width: 50px;
+      height: 40px;
+      width: 40px;
     }
     
     .title {
@@ -85,4 +92,11 @@ body {
     .title-space {
       height: 150px;
     }
+
+    .line {
+      display: flex;
+      height: 4px;
+      width: 80%;
+      background-color: var(--foreground-color);
+  }
 }
