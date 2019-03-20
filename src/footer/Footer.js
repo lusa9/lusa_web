@@ -6,6 +6,7 @@ export class Footer extends Component {
   render() {
     return (
         <div className="footer-container">
+          <div className="line"/>
           <div className="footer-content-vertical-space"/>
           <div className="footer-icon-container">
             <img className="footer-icon" src="/assets/upwork.png"/>

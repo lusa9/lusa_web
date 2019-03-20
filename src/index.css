@@ -42,7 +42,7 @@ body {
 
 .line {
   height: 3px;
-  width: 80%;
+  width: 228px;
   background-color: var(--foreground-color);
 }
 
@@ -51,12 +51,13 @@ body {
       height: 100px;
       width: 100px;
     }
+
+    .line {
+      width: 258.4px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    .bigspace {
-      height: 140px;
-    }
 
     .smallspace {
         height: 30px;
@@ -71,13 +72,13 @@ body {
     .title-space {
       height: 90px;
     }
+
+    .line {
+      width: 388px;
+    }
   }
   
   @media only screen and (min-width: 768px) {
-    .bigspace {
-      height: 160px;
-      width: 160px;
-    }
     
     .smallspace {
       height: 40px;
@@ -94,9 +95,7 @@ body {
     }
 
     .line {
-      display: flex;
       height: 4px;
-      width: 80%;
-      background-color: var(--foreground-color);
-  }
+      width: 553.6px;
+    }
 }

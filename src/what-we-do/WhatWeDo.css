@@ -1,8 +1,15 @@
-.what-we-do-container {
-    background-color: var(--light-background-color);
+.what-we-do-main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.what-we-do-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1152px;
 }
 
 .item-container {
@@ -21,11 +28,20 @@
 .image {
     width: 160px;
     max-width: max-content;
+    max-height: max-content;
+}
+
+.what-we-do-item-vertical-space {
+    height: 80px;
 }
 
 @media only screen and (min-width: 375px) {
     .image {
         width: 187.5px;
+    }
+    
+    .what-we-do-item-vertical-space {
+        height: 100px;
     }
 }
 
@@ -37,6 +53,17 @@
 
 @media only screen and (min-width: 768px) {
     .image {
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .what-we-do-container {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .item-description {
         width: 270px;
     }
 }
