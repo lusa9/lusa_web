@@ -19,16 +19,12 @@
 }
 
 .image {
-    width: 160px;
-}
-
-@media only screen and (min-width: 375px) {
-    .image {
-        width: 187.5px;
-    }
+    width: 50vw;
+    max-width: max-content;
 }
 
 @media only screen and (min-width: 600px) {
+
     .item-description {
         font-size: 23px;
         line-height: 32px;
