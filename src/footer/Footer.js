@@ -6,17 +6,19 @@ export class Footer extends Component {
   render() {
     return (
         <div className="footer-container">
-          <Space height={50}/>
+          <div className="footer-content-vertical-space"/>
           <div className="footer-icon-container">
-            <img src="/assets/github.png"/>
-            <Space width={20}/>
-            <img src="/assets/linkedin.png"/>
-            <Space width={20}/>
-            <img src="/assets/email.png"/>
+            <img className="footer-icon" src="/assets/upwork.png"/>
+            <div className="footer-icons-horizontal-space"/>
+            <img className="footer-icon" src="/assets/github.png"/>
+            <div className="footer-icons-horizontal-space"/>
+            <img className="footer-icon" src="/assets/linkedin.png"/>
+            <div className="footer-icons-horizontal-space"/>
+            <img className="footer-icon" src="/assets/email.png"/>
           </div>
-          <Space height={100}/>
-          <img src="/assets/logo_medium.png"/>
-          <Space height={30}/>
+          <div className="footer-icons-logo-space"/>
+          <img className="footer-logo" src="/assets/logo.png"/>
+          <div className="footer-content-vertical-space"/>
         </div>
     )
   }

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
 :root {
-  --accent-color: #F16666;
+  --accent-color: #FE7F67;
+  --foreground-color: black;
   --light-background-color: #F6F6F6;
 }
 
@@ -9,13 +10,13 @@ body, input, textarea {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
+  color: var(--foreground-color);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--accent-color);
+  background-color: var(--light-background-color);
 }
 
 .bigspace {
