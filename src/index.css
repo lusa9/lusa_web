@@ -20,8 +20,8 @@ body {
 }
 
 .bigspace {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .smallspace {
@@ -38,6 +38,12 @@ body {
 
 .title-space {
   height: 60px;
+}
+@media only screen and (min-width: 375px) {
+    .bigspace {
+      height: 100px;
+      width: 100px;
+    }
 }
 
 @media only screen and (min-width: 600px) {

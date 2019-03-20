@@ -19,7 +19,13 @@
 }
 
 .image {
-    width: 50vw;
+    width: 160px;
+}
+
+@media only screen and (min-width: 375px) {
+    .image {
+        width: 187.5px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
