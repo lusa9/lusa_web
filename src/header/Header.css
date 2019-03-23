@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-.header-logo-top-space {
-    height: 20px;
+.header-logo-top-space, .header-logo-title-space {
+    height: 30px;
 }
 
 .header-logo-buttons-container, .header-art-container {
@@ -21,10 +21,6 @@
 
 .header-buttons-container {
     display: none;
-}
-
-.header-logo-title-space {
-    height: 30px;
 }
 
 .header-art-container {
@@ -50,6 +46,12 @@
     letter-spacing: -4.07px;
     line-height: 42px;
     text-align: left;
+}
+
+@media only screen and (min-width: 375px) {
+    .header-title-line-space {
+        height: 20px;
+    }
 }
 
 @media only screen and (min-width: 615px) {
