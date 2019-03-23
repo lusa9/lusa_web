@@ -27,7 +27,7 @@ class Item extends Component {
       <div className="item-container">
         <img className="image" src={this.props.imagesrc}/>
         <div className="smallspace"/>
-        <text className="item-description">{this.props.description}</text>
+        <text className="body-small">{this.props.description}</text>
       </div>
     )
   }

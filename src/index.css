@@ -19,6 +19,13 @@ body {
   background-color: var(--background-color);
 }
 
+.body-small {
+  font-size: 19px;
+  line-height: 25px;
+  text-align: center;
+  width: 22vw;
+}
+
 .bigspace {
   height: 80px;
   width: 80px;
@@ -42,7 +49,7 @@ body {
 
 .line {
   height: 3px;
-  width: 228px;
+  width: 66%;
   background-color: var(--foreground-color);
 }
 
@@ -51,14 +58,9 @@ body {
       height: 100px;
       width: 100px;
     }
-
-    .line {
-      width: 258.4px;
-    }
 }
 
 @media only screen and (min-width: 600px) {
-
     .smallspace {
         height: 30px;
         width: 30px;
@@ -73,8 +75,11 @@ body {
       height: 90px;
     }
 
+  }
+  
+  @media only screen and (min-width: 615px) {
     .line {
-      width: 388px;
+      width: 87%;
     }
   }
   
@@ -92,10 +97,5 @@ body {
 
     .title-space {
       height: 150px;
-    }
-
-    .line {
-      height: 4px;
-      width: 553.6px;
     }
 }

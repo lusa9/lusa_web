@@ -4,84 +4,86 @@
     align-items: center;
 }
 
-.logo-top-space {
-    height: 40px;
+.header-logo-top-space {
+    height: 20px;
 }
 
-.logo-lusa-space {
-    height: 10px;
+.header-logo-buttons-container, .header-art-container {
+    width: 90%;
+    max-width: 1024px;
 }
 
-.logo {
-    width: 140px;
-    height: 140px;
-    user-select: none;
+.header-logo-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.lusadevelopment {
-    font-weight: 700;
-    font-size: 37px;
-    letter-spacing: -3.01px;
-    line-height: 26px;
-    color: black;
+.header-buttons-container {
+    display: none;
 }
 
-.lusa-line-space {
+.header-logo-title-space {
     height: 30px;
 }
 
-@media only screen and (min-width: 375px) {
-    .logo {
-        width: 160px;
-        height: 160px;
-    }
-
-    .lusadevelopment {
-        font-size: 42px;
-        letter-spacing: -3.42px;
-        line-height: 32px;
-    }
+.header-art-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-@media only screen and (min-width: 600px) {  
-    .logo {
-        width: 220px;
-        height: 220px;
-    }
-
-    .lusadevelopment {
-        letter-spacing: -5.13px;
-        line-height: 48px;
-        font-size: 63px;
-    }
-
-    .lusa-line-space {
-        height: 40px;
-    }
+.header-art-title-line-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    max-width: 553px;
 }
 
-@media only screen and (min-width: 768px) {
-    .logo-top-space {
+.header-title-line-space {
+    height: 15px;
+}
+
+.header-art-title {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -4.07px;
+    line-height: 42px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 615px) {
+    .header-logo-top-space {
         height: 60px;
     }
-
-    .logo {
-        width: 300px;
-        height: 300px;
-        user-select: none;
+    
+    .header-buttons-container {
+        display: flex;
+        margin-right: 15%;
     }
-
-    .logo-lusa-space {
-        height: 20px;
+    
+    .header-button {
+        font-size: 20px;
+        letter-spacing: -0.53px;
+        background-color: unset;
+        outline: none;
+        border: none;
     }
-
-    .lusadevelopment {
-        letter-spacing: -7.33px;
-        line-height: 63px;
-        font-size: 90px;
+    
+    .header-buttons-horizontal-space {
+        width: 40px;
     }
-
-    .lusa-line-space {
-        height: 60px;
+    
+    .header-logo-title-space {
+        height: 120px;
+    }
+    
+    .header-art-title-line-container {
+        margin-right: unset;
+        align-items: center;
+    }
+    
+    .header-title-line-space {
+        height: 25px;
     }
 }
