@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="121px" viewBox="0 0 200 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>macbook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-8" transform="translate(-98.000000, -440.000000)">
+            <g id="macbook" transform="translate(98.000000, 440.000000)">
+                <polygon id="Rectangle" fill="#FFFFFF" points="17.3684211 2.6419214 182.631579 2.6419214 182.631579 104.620087 17.3684211 104.620087"></polygon>
+                <path d="M3.5,114 L196.5,114 C198.432997,114 200,115.567003 200,117.5 C200,119.432997 198.432997,121 196.5,121 L3.5,121 C1.56700338,121 0,119.432997 0,117.5 C0,115.567003 1.56700338,114 3.5,114 Z M19,0 L181,0 C184.313708,0 187,2.6862915 187,6 L187,102 C187,105.313708 184.313708,108 181,108 L19,108 C15.6862915,108 13,105.313708 13,102 L13,6 C13,2.6862915 15.6862915,0 19,0 Z M23,7 C21.3431458,7 20,8.34314575 20,10 L20,97 C20,98.6568542 21.3431458,100 23,100 L177,100 C178.656854,100 180,98.6568542 180,97 L180,10 C180,8.34314575 178.656854,7 177,7 L23,7 Z" id="Shape" fill="#000000"></path>
+                <polygon id="Rectangle" fill="#FE7F67" points="100 22 165 22 165 85 100 85"></polygon>
+                <path d="M40,38 L90,38 L90,40 L40,40 L40,38 Z M40,47 L90,47 L90,49 L40,49 L40,47 Z M40,56 L90,56 L90,58 L40,58 L40,56 Z M40,65 L90,65 L90,67 L40,67 L40,65 Z" id="Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

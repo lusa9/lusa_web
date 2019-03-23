@@ -32,7 +32,7 @@ class Project extends Component {
             <div className="project-title-description-space"/>
             <text className="project-description">Simple & Fast parking SMS Generator built with React Native</text>
             <div className="project-description-buttons-space"/>
-            <a className="GooglePlayButton" href={this.props.googleplaylink}><img src="/assets/google_play.png"/></a>
+            <a className="GooglePlayButton" href={this.props.googleplaylink}><img className="GooglePlayImage" src="/assets/google_play.svg"/></a>
             <div className="smallspace"/>
           </div>
         </div>

@@ -57,6 +57,11 @@
     cursor: pointer;
 }
 
+.GooglePlayImage {
+    width: 200px;
+    height: 60px;
+}
+
 .project-buttons-end-space {
     height: 0px;
 }

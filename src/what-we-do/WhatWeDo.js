@@ -9,11 +9,11 @@ export class WhatWeDo extends Component {
         <div className="what-we-do-main-container">
           <div className="bigspace"/>
           <div className="what-we-do-container">
-            <Item imagesrc="/assets/macbook.png" description="Web Frontend using HTML & CSS with Angular, React or Vue.js"/>
+            <Item imagesrc="/assets/macbook.svg" description="Web Frontend using HTML & CSS with Angular, React or Vue.js"/>
             <div className="what-we-do-item-vertical-space"/>
-            <Item imagesrc="/assets/phones.png" description="Cross-Platform Mobile in React Native"/>
+            <Item imagesrc="/assets/phones.svg" description="Cross-Platform Mobile in React Native"/>
             <div className="what-we-do-item-vertical-space"/>
-            <Item imagesrc="/assets/iphone.png" description={"Native iOS"}/>
+            <Item imagesrc="/assets/iphone.svg" description={"Native iOS"}/>
           </div>
           <div className="bigspace"/>
         </div>
