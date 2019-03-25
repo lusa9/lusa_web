@@ -21,7 +21,7 @@ export class Header extends Component {
           <div className="header-art-title-line-container">
             <text className="header-art-title">Freelancer for your needs.</text>
             <div className="header-title-line-space"/>
-            <view className="line"/>
+            <view className="header-line"/>
           </div>
         </div>
       </div>

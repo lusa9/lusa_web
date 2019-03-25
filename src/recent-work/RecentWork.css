@@ -28,4 +28,12 @@
     .project-description-store-space {
         height: 170px;
     }
-  }
+    
+    .recent-work-bigspace {
+      height: 90px;
+    }
+    
+    .recent-work-end-space {
+      height: 110px;
+    }
+}

@@ -20,10 +20,6 @@
 
 
 @media only screen and (min-width: 1024px) {
-    .what-we-do-end-space {
-        height: 100px;
-    }
-
     .what-we-do-container {
         flex-direction: row;
         align-items: flex-end;

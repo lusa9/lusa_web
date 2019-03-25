@@ -4,13 +4,19 @@
   --accent-color: #FE7F67;
   --foreground-color: black;
   --background-color: #F6F6F6;
+  --light-gray-color: #B2B2B2;
 }
 
-body, input, textarea {
+body, input, textarea, button {
   font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  color: var(--foreground-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--foreground-color);
+}
+
+::placeholder {
+  color: var(--light-gray-color);
 }
 
 body {
@@ -20,33 +26,38 @@ body {
 }
 
 .body-small {
-  font-size: 19px;
-  line-height: 25px;
   text-align: center;
   width: 100%;
   max-width: 418px;
   /* background-color: gray; */
 }
 
-.what-we-do-item-container, .project-container {
+.what-we-do-item-container, .project-container, .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
-  max-width: 698px;
   /* background-color: yellow; */
 }
 
-.bigspace, .project-description-store-space, .recent-work-bigspace, .what-we-do-bigspace {
+.what-we-do-item-container, .project-container {
+  max-width: 698px;
+}
+
+.form-container {
+  max-width: 600px;
+}
+
+.bigspace, .project-description-store-space, .recent-work-bigspace, .what-we-do-bigspace, .hire-bigspace {
   height: 60px;
   width: 60px;
 }
 
-.recent-work-bigspace {
+.recent-work-bigspace, .hire-bigspace {
   height: 50px;
 }
 
-.smallspace, .recent-work-smallspace, .what-we-do-smallspace {
+.smallspace, .recent-work-smallspace, .what-we-do-smallspace, .hire-smallspace {
   height: 15px;
   width: 15px;
 }
@@ -58,17 +69,20 @@ body {
   font-size: 32px;
 }
 
-.title-space {
-  height: 60px;
-}
-
-.line {
+.line, .header-line, .border-line {
   height: 3px;
-  width: 66%;
   background-color: var(--foreground-color);
 }
 
-.what-we-do-end-space, .recent-work-end-space {
+.border-line {
+  width: 100%;
+}
+
+.header-line {
+  width: 66%;
+}
+
+.what-we-do-end-space, .recent-work-end-space, .hire-end-space {
   height: 80px;
 }
 
@@ -93,17 +107,17 @@ body {
   }
   
   @media only screen and (min-width: 615px) {
-    .line {
+    .header-line {
       width: 87%;
     }
   }
 
   @media only screen and (min-width: 668px) {
-    .recent-work-bigspace {
+    .recent-work-bigspace, .hire-bigspace {
       height: 90px;
     }
     
-    .recent-work-end-space {
+    .recent-work-end-space, .hire-end-space {
       height: 120px;
     }
   }
