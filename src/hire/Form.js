@@ -17,8 +17,8 @@ export class Form extends Component {
           <div className="hire-smallspace"/>
           <button className="attach-button">Attach any files that might be useful</button>
           <div className="hire-bigspace"/>
-        <button onClick={this.props.onSubmit} className="submit-button">Send</button>
-        <div className="hire-end-space"/>
+          <button onClick={this.props.onSubmit} className="submit-button">Send</button>
+          <div className="hire-end-space"/>
         </div>
       </div>
     )

@@ -86,6 +86,15 @@ body {
   height: 80px;
 }
 
+.form-feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 718px;
+}
+
 @media only screen and (min-width: 600px) {
     .bigspace, .project-description-store-space {
       height: 70px;
@@ -119,6 +128,10 @@ body {
     
     .recent-work-end-space, .hire-end-space {
       height: 120px;
+    }
+
+    .form-feedback-container {
+      min-height: 852px;
     }
   }
   
