@@ -1,28 +1,8 @@
 .recent-work-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     background-color: var(--accent-color);
-}
-
-.project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.project-image {
-    width: 80vw;
-}
-
-.project-title {
-    display: flex;
-    flex: 1;
-    font-weight: 100;
-    font-size: 63px;
-    letter-spacing: -5px;
-    text-align: center;
-    color: black;
 }
 
 .project-details-container {
@@ -31,98 +11,21 @@
     align-items: center;
 }
 
-.project-image-details-space {
-    width: 0px;
-    height: 30px;
-}
-
-.project-title-description-space {
+.store-button-bottom-space {
     height: 0px;
 }
 
-.project-description {
-    font-size: 20px;
-    line-height: 22px;
-    text-align: center;
-    width: 90vw;
-}
-
-.project-description-buttons-space {
-    height: 30px;
-}
-
-.GooglePlayButton {
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.GooglePlayImage {
-    width: 200px;
-    height: 60px;
-}
-
-.project-buttons-end-space {
-    height: 0px;
-}
-
-@media only screen and (min-width: 394px) {
-    .project-image {
-        width: auto;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .project-description {
-        font-size: 23px;
-        line-height: 32px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .project-details-container {
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: 441px;
-    }
-    
-    .project-description {
-        font-size: 25px;
-        line-height: 32px;
-        width: 100%;
-    }
-    
+@media only screen and (min-width: 668px) {
     .project-container {
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-evenly;
+      flex-direction: row;
+      align-items: flex-end;
     }
     
-    .project-image-details-space {
-        width: 0px;
-        height: 0px;
+    .store-button-bottom-space {
+      height: 20px;
     }
-    
-    .project-title-description-space {
-        height: 10px;
-    }
-    
-    .project-description-buttons-space {
-        height: 220px;
-    }
-    
-    .project-buttons-end-space {
-        height: 20px
-    }
-}
 
-@media only screen and (min-width: 911px) {
-    .project-image-details-space {
-        width: 60px;
-        height: 0px;
+    .project-description-store-space {
+        height: 170px;
     }
-    
-    .recent-work-container {
-        align-items: center;
-    }
-}
+  }

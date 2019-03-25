@@ -24,24 +24,38 @@ body {
   line-height: 25px;
   text-align: center;
   width: 100%;
-  /* background-color: #FE7F67; */
+  max-width: 418px;
+  /* background-color: gray; */
 }
 
-.bigspace {
+.what-we-do-item-container, .project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 698px;
+  /* background-color: yellow; */
+}
+
+.bigspace, .project-description-store-space, .recent-work-bigspace, .what-we-do-bigspace {
+  height: 60px;
+  width: 60px;
+}
+
+.recent-work-bigspace {
   height: 50px;
-  width: 50px;
 }
 
-.smallspace {
+.smallspace, .recent-work-smallspace, .what-we-do-smallspace {
   height: 15px;
   width: 15px;
 }
 
 .title {
-  font-weight: 300;
-  letter-spacing: -1.88px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .title-space {
@@ -54,21 +68,12 @@ body {
   background-color: var(--foreground-color);
 }
 
-@media only screen and (min-width: 375px) {
-    .bigspace {
-      height: 60px;
-      width: 60px;
-    }
-
-    .smallspace {
-      height: 20px;
-      width: 20px;
-    }
+.what-we-do-end-space, .recent-work-end-space {
+  height: 80px;
 }
 
 @media only screen and (min-width: 600px) {
-
-    .bigspace {
+    .bigspace, .project-description-store-space {
       height: 70px;
       width: 70px;
     }
@@ -78,40 +83,67 @@ body {
       width: 25px;
     }
 
-    .title {
-      letter-spacing: -2.72px;
-      font-size: 58px;
-    }
-
     .title-space {
       height: 90px;
     }
 
-    .body-small {
-      width: 60%;
+    .what-we-do-end-space {
+      height: 110px;
     }
   }
-
+  
   @media only screen and (min-width: 615px) {
     .line {
       width: 87%;
     }
   }
-  @media only screen and (min-width: 1024px) {
-    .body-small {
-      width: 95%;
+
+  @media only screen and (min-width: 668px) {
+    .recent-work-bigspace {
+      height: 90px;
     }
+    
+    .recent-work-end-space {
+      height: 120px;
+    }
+  }
+  
+  @media only screen and (min-width: 720px) {
+    .what-we-do-item-container {
+      flex-direction: row;
+    }
+    
+    .what-we-do-bigspace {
+      height: 90px;
+      width: 90px;
+    }
+
+    .what-we-do-smallspace {
+      height: 30px;
+      width: 30px;
+    }
+
+    .what-we-do-end-space {
+      height: 120px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
     .smallspace {
       height: 30px;
       width: 30px;
     }
-    
-    .title {
-      letter-spacing: -3px;
-      font-size: 64px;
-    }
   
     .title-space {
       height: 150px;
+    }
+
+    .what-we-do-item-container {
+      flex-direction: column;
+      max-width: 30%;
+    }
+
+    .what-we-do-end-space {
+      height: 100px;
     }
   }
