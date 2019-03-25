@@ -16,7 +16,7 @@ export class Form extends Component {
           <textarea className="input-message" type="text" name="message" placeholder="Write about the project"></textarea>
           <div className="hire-smallspace"/>
           <button className="attach-button">Attach any files that might be useful</button>
-          <div className="hire-bigspace"/>
+          <div className="form-attach-submit-space"/>
           <button onClick={this.props.onSubmit} className="submit-button">Send</button>
           <div className="hire-end-space"/>
         </div>
