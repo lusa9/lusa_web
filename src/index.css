@@ -69,12 +69,17 @@ body {
   font-size: 32px;
 }
 
-.line, .header-line, .border-line, .footer-line {
-  height: 3px;
+.header-line .footer-line {
   background-color: var(--foreground-color);
 }
 
+.header-line, .footer-line {
+  height: 3px;
+}
+
 .border-line {
+  background-color: var(--light-gray-color);
+  height: 1px;
   width: 100%;
 }
 

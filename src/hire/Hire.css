@@ -22,8 +22,8 @@
 
 .input-message {
     resize: none;
-    border-width: 3px;
-    border-color: var(--foreground-color);
+    border-width: 1px;
+    border-color: var(--light-gray-color);
     border-radius: 10px;
     padding: 20px;
     -webkit-box-sizing: border-box;
@@ -38,8 +38,8 @@
 
 .attach-button {
     border-width: 1px;
-    border-style: solid;
-    border-color: var(--light-gray-color);
+    border-style: dashed;
+    border-color: #D0D0D0;
     padding-top: 20px;
     padding-bottom: 20px;
     color: var(--accent-color);
