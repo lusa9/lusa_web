@@ -69,11 +69,8 @@ body {
   font-size: 32px;
 }
 
-.header-line .footer-line {
-  background-color: var(--foreground-color);
-}
-
 .header-line, .footer-line {
+  background-color: var(--foreground-color);
   height: 3px;
 }
 
